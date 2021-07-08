@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Friendly Expense Manager</string>
+    <string name="adduser">AddUser</string>
+    <string name="add_user">Add User</string>
+    <string name="_0_user_found">0 user found</string>
+    <string name="user_count_label">" user found."</string>
+    <string name="no_user_message">No user added yet.</string>
+    <string name="enter_user_expense">Enter User Expense</string>
+    <string name="user_name">Dummy Name</string>
+    <string name="date_dummy" />
+    <string name="credit_status">Have to Pay</string>
+    <string name="credit_amount">1000</string>
+    <string name="total_paid_value">5000</string>
+    <string name="enter_user_hint">Enter user name.</string>
+    <string name="user_amount_hint">Enter provided amount by user.</string>
+    <string name="amount_default">0</string>
+</resources>

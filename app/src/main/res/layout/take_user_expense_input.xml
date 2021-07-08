@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <EditText
+        android:id="@+id/userExpenseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_user_expense"
+        android:singleLine="true"
+        android:autofillHints=""
+        android:text="@string/amount_default"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user"
+        android:textSize="20sp"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/textViewUserCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/_0_user_found"
+        android:textSize="18sp"
+        android:layout_below="@id/addUserButton" />
+
+    <ScrollView
+        android:id="@+id/scrollViewUserRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUserCount" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutUserRecords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
